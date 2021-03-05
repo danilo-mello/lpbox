@@ -3,7 +3,6 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.models import User
 from django.db import IntegrityError
-from django.http import request
 from django.shortcuts import render, redirect
 from django.views.generic import TemplateView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
@@ -127,7 +126,10 @@ def band_list(request, lps):
         for lp in lps:
             if request.user.id == lp.user.pk:
                 bands.append(lp.artist)
-        return set(bands)
+
+        if len(bands) > 0:
+            return set(bands)
+        return ""
     else:
         return ""
 
@@ -160,8 +162,10 @@ def most_common_band(request, lps):
         for lp in lps:
             if request.user.id == lp.user.pk:
                 bands.append(lp.artist)
-        most_common = Counter(bands).most_common()[0][0]
 
+        most_common = ""
+        if len(bands) > 0:
+            most_common = Counter(bands).most_common()[0][0]
         return most_common
     else:
         return ""

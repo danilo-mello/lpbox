@@ -54,8 +54,7 @@ class Lp(Base):
                                                               MaxValueValidator(int(date.today().year))])
     lp_condition = models.CharField('LP Condition', max_length=14, choices=LP_CONDITION)
     cover_condition = models.CharField('Cover Condition', max_length=14, choices=COVER_CONDITION)
-    # cover_image = StdImageField(_('Cover'), upload_to=get_file_path, default="./static/img/logo1.png")
-    cover_image = StdImageField(_('Cover'), upload_to=get_file_path, default="./static/img/logo1.png",
+    cover_image = StdImageField(_('Cover'), upload_to=get_file_path, default="./bghero.jpg",
                                 variations={'thumb': {'width': 480, 'height': 480, 'crop': True}})
     price = MoneyField(decimal_places=2, default=0, default_currency='USD', max_digits=11)
     acquisition_date = models.DateTimeField(null=True, blank=True)
