@@ -153,6 +153,8 @@ def total_value(request, lps):
 
 
 def most_common_band(request, lps):
+    if request.user.id is None:
+        return ""
     if len(lps) > 0:
         bands = []
         for lp in lps:
