@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% load bootstrap5 %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+
+
+    {% for l in lps %}
+
+      {% if user == l.user %}
+
+      <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <img src="{{ l.cover_image.url }}" class="card-img-top" alt="cover">
+          <div class="card-body">
+            <h5 class="card-title">{{ l.album_title }}</h5>
+            <p class="card-text">{{ l.artist }}</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ l.genre }}</li>
+            <li class="list-group-item">{{ l.year }}</li>
+            <li class="list-group-item">LP Condition: {{ l.lp_condition }}</li>
+            <li class="list-group-item">Cover Condition: {{ l.cover_condition }}</li>
+          </ul>
+          <div class="card-body">
+            <div class="btn-group">
+              <a class="btn btn-secondary" href="{% url 'upd_lp' l.pk %}" class="card-link">Update</a>
+
+              <a class="btn btn-danger" href="{% url 'del_lp' l.pk %}" class="card-link">Delete</a>
+
+              <a class="btn btn-dark" href="#" class="card-link">More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    {% endif %}
+    {% endfor %}
+
+  </div>
+</div>
+
+{% endblock %}

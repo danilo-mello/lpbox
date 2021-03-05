@@ -1,0 +1,739 @@
+Music Meta Data:
+https://blog.landr.com/music-metadata/
+
+Money Model (django money):
+https://stackoverflow.com/questions/1139393/what-is-the-best-django-model-field-to-use-to-represent-a-us-dollar-amount
+https://github.com/django-money/django-money
+
+Seting min and max value for an Integer model:
+https://stackoverflow.com/questions/849142/how-to-limit-the-maximum-value-of-a-numeric-field-in-a-django-model
+
+Flaticon:
+https://www.flaticon.com/
+
+Countries Model:
+https://github.com/SmileyChris/django-countries/
+
+Bootstrap 5 with Django
+
+https://pypi.org/project/django-bootstrap-v5/
+
+
+
+DUMMY DATA
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'The Piper at the Gates of Dawn', 
+		'Psychedelic Rock', 
+		'1967', 
+		'M', 
+		'M', 
+		'Pink_Floyd_The_Piper_at_the_Gates_of_Dawn.jpg', 
+		'USD', 
+		34.60, '
+		2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'A Saucerful of Secrets', 
+		'Psychedelic Rock', 
+		'1968', 
+		'NM', 
+		'NM', 
+		'Pink_Floyd_Saucerful_of_secrets.jpg', 
+		'USD', 
+		50.45, '
+		2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'More', 
+		'Psychedelic Rock', 
+		'1968', 
+		'NM', 
+		'NM', 
+		'Pink_Floyd_More.jpg', 
+		'USD', 
+		22.8, '
+		2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'Ummagumma', 
+		'Psychedelic Rock', 
+		'1969', 
+		'F', 
+		'P', 
+		'Pink_Floyd_Ummagumma.jpg', 
+		'USD', 
+		2.50, '
+		2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'Atom Heart Mother', 
+		'Psychedelic Rock', 
+		'1970', 
+		'VG', 
+		'VG', 
+		'Pink_Floyd_Atom_Heart_Mother.jpg', 
+		'USD', 
+		50.45, '
+		2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'Meddle', 
+		'Psychedelic Rock', 
+		'1971', 
+		'NM', 
+		'NM', 
+		'Pink_Floyd_Meddle.jpg', 
+		'USD', 
+		50.45, '
+		2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'Obscured by Clouds', 
+		'Psychedelic Rock', 
+		'1972', 
+		'NM', 
+		'NM', 
+		'Pink_Floyd_Obscured_by_Clouds.jpg', 
+		'USD', 
+		32.58, '
+		2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'The Dark Side of the Moon', 
+		'Psychedelic Rock', 
+		'1973', 
+		'SE', 
+		'SE', 
+		'Pink_Floyd_Dark_Side_of_the_Moon.png', 
+		'USD', 
+		65.58, '
+		2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'Wish You Were Here', 
+		'Psychedelic Rock', 
+		'1975', 
+		'VG+', 
+		'NM', 
+		'Pink_Floyd_Wish_You_Were_Here.jpeg', 
+		'USD', 
+		62.58, '
+		2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'Animals', 
+		'Psychedelic Rock', 
+		'1977', 
+		'VG', 
+		'G', 
+		'Pink_Floyd_Animals.jpg', 
+		'USD', 
+		28.77, '
+		2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'The Wall', 
+		'Psychedelic Rock', 
+		'1979', 
+		'VG+', 
+		'VG', 
+		'Pink_Floyd_The_Wall.jpg', 
+		'USD', 
+		19.50, '
+		2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'The Final Cut', 
+		'Psychedelic Rock', 
+		'1983', 
+		'VG+', 
+		'VG', 
+		'Pink_Floyd_The_Final_Cut.jpg', 
+		'USD', 
+		19.50, '
+		2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'A Momentary Lapse of Reason', 
+		'Psychedelic Rock', 
+		'1987', 
+		'VG', 
+		'G', 
+		'Pink_Floyd_A_Momentary_Lapse_of_Reason.jpg', 
+		'USD', 
+		25.50, '
+		2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'The Division Bell', 
+		'Psychedelic Rock', 
+		'1994', 
+		'NM', 
+		'NM', 
+		'Pink_Floyd_The_Division_Bell.jpg', 
+		'USD', 
+		75.80, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'Pink Floyd', 
+		'The Endless River', 
+		'Psychedelic Rock', 
+		'2014', 
+		'SE', 
+		'SE', 
+		'Pink_Floyd_The_Endless_River.jpg', 
+		'USD', 
+		21.250, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'Please Please Me', 
+		'Rock', 
+		'1963', 
+		'SE', 
+		'SE', 
+		'The_Beatles_Please_Please_Me.jpg', 
+		'USD', 
+		12.78, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'Please Please Me', 
+		'Rock', 
+		'1963', 
+		'SE', 
+		'SE', 
+		'The_Beatles_Please_Please_Me.jpg', 
+		'USD', 
+		12.78, 
+		'2021-03-03 10:59:28-08', 
+		'US',
+		2
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'With The Beatles', 
+		'Rock', 
+		'1963', 
+		'VG+', 
+		'VG+', 
+		'The_Beatles_With_The_Beatles.jpg', 
+		'USD', 
+		15.50, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'A Hard Days Night', 
+		'Rock', 
+		'1964', 
+		'VG', 
+		'VG', 
+		'The_Beatles_A_Hard_Days_Night.jpg', 
+		'USD', 
+		18.90, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'Beatles for Sale', 
+		'Rock', 
+		'1964', 
+		'P', 
+		'P', 
+		'The_Beatles_Beatles_for_Sale.jpg', 
+		'USD', 
+		1.90, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'Help!', 
+		'Rock', 
+		'1965', 
+		'F', 
+		'F', 
+		'The_Beatles_Help.jpg', 
+		'USD', 
+		1.90, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'Rubber Soul', 
+		'Rock', 
+		'1965', 
+		'VG', 
+		'VG+', 
+		'The_Beatles_Rubber_Soul.jpg', 
+		'USD', 
+		44.90, 
+		'2021-03-03 10:59:28-08', 
+		'CA', 
+		1
+	);
+
+
+INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'Revolver', 
+		'Rock', 
+		'1966', 
+		'NM', 
+		'M', 
+		'The_Beatles_Revolver.jpg', 
+		'USD', 
+		51.90, 
+		'2021-03-03 10:59:28-08', 
+		'CA', 
+		1
+	);
+
+
+
+	INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'A Collection of Beatles Oldies', 
+		'Rock', 
+		'1966', 
+		'M', 
+		'M', 
+		'The_Beatles_A_collection_of_beatles_oldies.jpg', 
+		'USD', 
+		25.80, 
+		'2021-03-03 10:59:28-08', 
+		'CA', 
+		1
+	);
+
+	INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'Sgt. Peppers Lonely Hearts Club Band', 
+		'Rock', 
+		'1967', 
+		'M', 
+		'NM', 
+		'The_Beatles_Sgt._Peppers_Lonely_Hearts_Club_Band.jpg', 
+		'USD', 
+		66.60, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+	INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'Magical Mystery Tour', 
+		'Psychedelic Rock', 
+		'1967', 
+		'M', 
+		'NM', 
+		'The_Beatles_Magical_Mystery_Tour.jpg', 
+		'USD', 
+		8.75, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+	INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'The Beatles (White Album)', 
+		'Rock', 
+		'1968', 
+		'VG', 
+		'VG', 
+		'The_Beatles_White_Album.jpg', 
+		'USD', 
+		35.50, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+	INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'Yellow Submarine', 
+		'Rock', 
+		'1969', 
+		'VG+', 
+		'VG+', 
+		'The_Beatles_Yellow_Submarine.jpg', 
+		'USD', 
+		25.50, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+
+	INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'Abbey Road', 
+		'Rock', 
+		'1969', 
+		'G', 
+		'G', 
+		'The_Beatles_Abbey_Road.jpg', 
+		'USD', 
+		90.50, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+	INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'Hey Jude', 
+		'Rock', 
+		'1970', 
+		'VG', 
+		'G', 
+		'The_Beatles_Hey_Jude.jpg', 
+		'USD', 
+		4.60, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+
+	INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'The Beatles', 
+		'Let It Be', 
+		'Rock', 
+		'1970', 
+		'NM', 
+		'VG+', 
+		'The_Beatles_Let_It_Be.jpg', 
+		'USD', 
+		52.25, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+		INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'David Bowie', 
+		'The Man Who Sold the World', 
+		'Hard Rock', 
+		'1970', 
+		'VG', 
+		'VG+', 
+		'David_Bowie_The_Man_Who_Sold_The_World.jpg', 
+		'USD', 
+		22.25, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+
+
+	INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'David Bowie', 
+		'Hunky Dory', 
+		'Pop Rock', 
+		'1971', 
+		'G', 
+		'G', 
+		'David_Bowie_Hunky_Dory.jpg', 
+		'USD', 
+		5.80, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+
+		INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'David Bowie', 
+		'The Rise and Fall of Ziggy Stardust and the Spiders from Mars', 
+		'Glam Rock', 
+		'1972', 
+		'NM', 
+		'M', 
+		'David_Bowie_Ziggy_Stardust.jpg', 
+		'USD', 
+		78.50, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+
+		INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'David Bowie', 
+		'Low', 
+		'Art Rock', 
+		'1977', 
+		'SE', 
+		'SE', 
+		'David_Bowie_Low.jpg', 
+		'USD', 
+		24.50, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+			INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'David Bowie', 
+		'Heroes', 
+		'Art Rock', 
+		'1977', 
+		'SE', 
+		'SE', 
+		'David_Bowie_Heroes.png', 
+		'USD', 
+		29.90, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);
+
+
+	INSERT INTO core_lp (created, motified, active, artist, album_title, genre, year, lp_condition, cover_condition, cover_image, price_currency, price, acquisition_date, country, user_id)
+	VALUES (
+		'2021-03-03', 
+		'2021-03-03', 
+		'true', 
+		'David Bowie', 
+		'Scary Monsters', 
+		'Art Rock', 
+		'1980', 
+		'SE', 
+		'SE', 
+		'David_Bowie_Scary_Monsters.jpg', 
+		'USD', 
+		29.90, 
+		'2021-03-03 10:59:28-08', 
+		'US', 
+		1
+	);

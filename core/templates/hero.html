@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% load bootstrap5 %}
+
+{% block content %}
+
+
+{% if not user.is_authenticated %}
+
+<div class="container">
+  <div class="p-5 rounded-lg hero" id="hero">
+    <h1 class="display-4">LP BOX!</h1>
+    <p class="lead">We're a Web App build to help you manage your vinyl collection.</p>
+    <hr class="my-4">
+    <p>Sign Up to Start or Sign In to see your collection.</p>
+    <a class="btn btn-dark btn-lg" href="{% url 'signupuser' %}" role="button">Sign Up</a>
+    <a class="btn btn-dark btn-lg" href="{% url 'loginuser' %}" role="button">Sign In</a>
+  </div>
+</div>
+{% else %}
+
+
+
+
+<div class="p-5 rounded-lg hero">
+  <h1 class="display-4">Your Collection!</h1>
+
+<div class="container container-small">
+
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th scope="col">{{ user }}</th>
+        <th scope="col">Your LP Box</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Total LPs</th>
+        <td>{{ total }}</td>
+
+
+      </tr>
+      <tr>
+        <th scope="row">Number of Bands</th>
+        <td>{{ number_of_bands }}</td>
+
+      </tr>
+      <tr>
+        <th scope="row">Total Value</th>
+        <td colspan="2">{{ total_value }}</td>
+      </tr>
+
+      <tr>
+        <th scope="row">Most Common Band</th>
+        <td colspan="3">{{ most_common_band }}</td>
+      </tr>
+
+    <tr>
+        <th scope="row">Most Valuable</th>
+        <td colspan="4">{{ most_valuable }}</td>
+    </tr>
+
+    <tr>
+        <th scope="row">Bands</th>
+        <td colspan="5">{{ band_list }}</td>
+    </tr>
+
+    <tr>
+        <th scope="row">Test</th>
+        <td colspan="5">{{ test }} </td>
+    </tr>
+
+
+
+
+    </tbody>
+  </table>
+</div>
+<!--  <a class="btn btn-dark btn-lg " href="{% url 'add_lp' %}" role="button">Add LP</a>-->
+</div>
+
+{% endif %}
+
+{% endblock %}
